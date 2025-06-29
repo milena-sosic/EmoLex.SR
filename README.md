@@ -97,6 +97,7 @@ To construct or validate the emotion affect dictionary please ensure that you co
 
 
 ## License
+- MIT General Public License
 
 
 ## Contact
