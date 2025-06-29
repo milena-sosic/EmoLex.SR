@@ -79,7 +79,6 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
   - `translation.py`: Script to facilitate the translation of the emotion affect lexicon.
   - `adaptation.py`: Script used to adapt the lexicon upon manual validation on contextual and linguistics changes (output: **EmoLex.SR-v1**).
   - `expansion.py`:  Script used to enrich the EmoLex.SR-v1 lexicon with the broad synonyms and manually crafted emotional affect words in Serbian (output: **EmoLex.SR-v2**).
-  - `analyse_emotion.py`: A script for analyzing emotional signals in Serbian text using the Emolex.SR-v2 lexicon.
 
 - **validation/**
   - Set of scripts used to validate particular steps during lexicon construction.
