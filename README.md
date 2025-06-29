@@ -22,7 +22,7 @@ This project leverages advanced technologies alongside established language reso
 - **Integration of Established Resources**: By utilizing existing language resources such as lexicons:
 
 - [NRC EmoLex](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) - Used for aligning emotion categories. In particular, version of this lexicon, called [EmoLex.EN](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/PO3YGX) with corrected bias and assigned PoS tags was utilized through this research, 
-- [WordNet-Affect](https://github.com/dmeoli/WNAffect),
+- [WordNet-Affect](https://wndomains.fbk.eu/wnaffect.html),
 - [Serbian WordNet](https://wn.jerteh.rs/) - Utilized for compiling a list of synonymous Serbian words across the contexts, 
 - [SrpMD4Tagging](https://live.european-language-grid.eu/catalogue/lcr/9294) - Serbian morphological dictionaries for (word, PoS) tagging
 
