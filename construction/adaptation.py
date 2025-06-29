@@ -11,7 +11,7 @@ from load_lexicons import *
 from constants import *
 
 
-def main():
+def adapt_lexicon():
     df = pd.read_csv(EMOLEX_SR_VAL_PATH, sep=',')
     df['lemma_sr_final'] = np.where(df['valid_word'] == 'word_sr_tr', df['word_sr_tr'],
                                     np.where(df['valid_word'] == 'correct_word_sr', df['correct_word_sr'],
@@ -63,4 +63,4 @@ def main():
     df_agg.to_csv(EMOLEX_SR_V1_PATH, sep='\t', index=False)
 
 if __name__ == "__main__":
-    main()
+    adapt_lexicon()
