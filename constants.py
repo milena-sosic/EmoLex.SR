@@ -13,7 +13,7 @@ NRC_WNA_MAPPING = {
         'joy': ['levity', 'positive-fear', 'enthusiasm', 'calmness', 'joy', 'gratitude', 'affection', 'love', 'liking', 'happiness', 'joy-pride', 'cheerfulness', 'euphoria', 'satisfaction', 'general-gaiety', 'jollity', 'sympathy', 'positive-concern']
     }
 
-CORPUS = ['SocialSCKT'] #'XED', 'LLM',  'LLM'
+CORPUS = ['LLM', 'SocialSCKT', 'XED']
 
 XLM_MODEL_PATH = "MilaNLProc/xlm-emo-t"
 EMO_LLAMA_MODEL_PATH = "lzw1008/Emollama-chat-7b"
