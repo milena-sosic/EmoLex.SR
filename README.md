@@ -19,7 +19,7 @@
 
 This project leverages advanced technologies alongside established language resources to innovate and develop new linguistic tools. Key aspects include:
 
-- **Integration of Established Resources**: By utilizing existing language resources such as lexicons:
+- **Integration of Established Resources**: By utilizing existing language resources such as:
 
 - [NRC EmoLex](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) - Used for aligning emotion categories. In particular, version of this lexicon, called [EmoLex.EN](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/PO3YGX) with corrected bias and assigned PoS tags was utilized through this research, 
 - [WordNet-Affect](https://wndomains.fbk.eu/wnaffect.html),
@@ -43,7 +43,7 @@ This project leverages advanced technologies alongside established language reso
 
 The `Emolex.SR` lexicon was developed following a multi-step approach:
 1. **Emotional Words Collection**: Compilation of Serbian words and corresponding English lexicons with affective dimensions.
-2. **Translation**: Manual and automated translation (Google Translate, GhatGPT, GPT-4.1) of emotion affect (lemma, PoS) entries from English lexicon.
+2. **Translation**: Manual and automated translation (Google Translate, GhatGPT, GPT-4.1) of emotion affect (word, PoS) entries from English lexicon.
 3. **Generation**: Automated generation of (lemma, PoS) synonyms and emotion affect labels.
 4. **Annotation**: Manual and automated annotation of emotion affect labels for (lemma, PoS) in Serbian.
 5. **Validation**: Validation through cross-referencing (NRC.EmoLex, SWN, WNA.SR) and expert verification.
@@ -58,7 +58,7 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
 
 - **data/**
   - `NRC.EmoLex.EN`: The lexicon file containing emotion affect data for English words.
-  - `serbian_emo_affect_words.txt`: A list of Serbian words utilized in the expansion of the lexicon.
+  - `serbian_emo_affect_words.tsv`: A list of Serbian words utilized in the expansion of the lexicon.
 
 - **lexicons/**
   - Contains all versions of the lexicon that were developed during the translation, adaptation, and validation steps. If you want to reproduce the steps of lexicon construction, please use the links above to collect all necessary resources. Lexicon constructed through this study (v-1/2) could be found on the [ELG](#) repository.
@@ -66,13 +66,13 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
 - **WNA.SR/**
   - This folder contains resources related to the WordNet-Affect lexical database, which extends WordNet with affective concepts and is specifically linked to the Serbian WordNet.
   
-- **lexicon_construction/**
+- **construction/**
   - `translation.py`: Script to facilitate the translation of the emotion affect lexicon.
   - `adaptation.py`: Script used to adapt the lexicon upon manual validation on contextual and linguistics changes (output: **EmoLex.SR-v1**).
   - `expansion.py`:  Script used to enrich the EmoLex.SR-v1 lexicon with the broad synonyms and manually crafted emotional affect words in Serbian (output: **EmoLex.SR-v2**).
   - `analyse_emotion.py`: A script for analyzing emotional signals in Serbian text using the Emolex.SR-v2 lexicon.
 
-- **lexicon_validation/**
+- **validation/**
   - Set of scripts used to validate particular steps during lexicon construction.
 
   
@@ -101,6 +101,7 @@ To construct or validate the emotion affect dictionary please ensure that you co
 
 
 ## Contact
+- For any question, please contact us at jerteh.rs@gmail.com.
 
 
 
