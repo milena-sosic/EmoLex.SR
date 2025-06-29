@@ -12,7 +12,7 @@
 
 # EmoLex.SR - Emotion Affect Lexicon for the Serbian Language
 
-`Emolex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary files, scripts, and guidelines to use and extend the dictionary effectively.
+`Emolex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary scripts and guidelines for lexicon consruction.
 
 
 ## Technology and Resources Utilization
@@ -65,7 +65,16 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
  
 - **WNA.SR/**
   - This folder contains resources related to the WordNet-Affect lexical database, which extends WordNet with affective concepts and is specifically linked to the Serbian WordNet.
-  
+
+- **prompt_engineering/**
+  - Scripts to utilize LLMs (ChatGPT, GPT-4.1) to solve four predefined tasks:
+    1. English (word, PoS) translation to Serbian (EN->SR)
+    2. Serbian (lemma, PoS) emotion annotation (multi-label)
+    3. Serbian (lemma, PoS) synonyms generation
+    4. Parallel corpus of EN/SR sentences annotated into Plutchik's categories (multi-label)
+   
+    To effectively use functions in this directory, please ensure to obtain `OPENAI_API_KEY` and save it as an environment variable.
+    
 - **construction/**
   - `translation.py`: Script to facilitate the translation of the emotion affect lexicon.
   - `adaptation.py`: Script used to adapt the lexicon upon manual validation on contextual and linguistics changes (output: **EmoLex.SR-v1**).
