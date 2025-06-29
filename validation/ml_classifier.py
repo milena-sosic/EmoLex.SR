@@ -14,7 +14,6 @@ from load_lexicons import load_lemma_pos_model
 from utils import multilabel_train_test_split
 from diacritics.redi import redi
 import pickle
-import os
 from constants import *
 from lexicon_validation.metrics import measure_accuracy
 
