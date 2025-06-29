@@ -1,0 +1,17 @@
+pandas==2.3.0
+openai==1.86.0
+googletrans==4.0.2
+scikit-learn==1.7.0
+cyrtranslit==1.1.1
+nltk==3.9.1
+sentence-transformers==4.1.0
+pyplutchik==0.0.11
+matplotlib==3.10.3
+seaborn==0.13.2
+deep_translator==1.11.4
+scikit-multilearn==0.2.0
+iterative-stratification==0.1.9
+krippendorff==0.8.1
+statsmodels==0.14.4
+transformers==4.52.4
+lxml==5.4.0
