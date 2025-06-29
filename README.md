@@ -12,7 +12,7 @@
 
 # EmoLex.SR - Emotion Affect Lexicon for the Serbian Language
 
-`Emolex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary scripts and guidelines for lexicon consruction.
+`EmoLex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary scripts and guidelines for lexicon consruction.
 
 
 ## Technology and Resources Utilization
@@ -21,7 +21,7 @@ This project leverages advanced technologies alongside established language reso
 
 - **Integration of Established Resources**: By utilizing existing language resources such as:
 
-- [NRC EmoLex](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) - Used for aligning emotion categories. In particular, version of this lexicon, called [EmoLex.EN](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/PO3YGX) with corrected bias and assigned PoS tags was utilized through this research, 
+- [NRC EmoLex](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) - Used for aligning emotion categories. In particular, version of this lexicon, named [EmoLex.EN](https://dataverse.fiu.edu/dataset.xhtml?persistentId=doi:10.34703/gzx1-9v95/PO3YGX) which includes corrected bias and assigned PoS tags was utilized through this research, 
 - [WordNet-Affect](https://wndomains.fbk.eu/wnaffect.html),
 - [Serbian WordNet](https://wn.jerteh.rs/) - Utilized for compiling a list of synonymous Serbian words across the contexts, 
 - [SrpMD4Tagging](https://live.european-language-grid.eu/catalogue/lcr/9294) - Serbian morphological dictionaries for (word, PoS) tagging
@@ -36,14 +36,14 @@ This project leverages advanced technologies alongside established language reso
   
 - **Advanced Computational Methods**: The construction and validation of the emotion-affect lexicon employ cutting-edge computational techniques, including natural language processing (NLP) and automated semantic analysis by LLMs ([ChatGPT](https://openai.com/index/chatgpt/), [GPT-4.1](https://openai.com/index/gpt-4-1/), [XLM-Emo](https://huggingface.co/MilaNLProc/xlm-emo-t), [Multilingual Sentence Transformers](https://github.com/UKPLab/sentence-transformers/blob/master/examples/sentence_transformer/training/multilingual/README.md)), to ensure accuracy and efficiency.
 
-- **Innovative Lexicon Development**: Through the strategic combination of technological advancements and robust lexical databases, `Emolex.SR` presents a novel affective lexicon that meets contemporary linguistic analysis demands.
+- **Innovative Lexicon Development**: Through the strategic combination of technological advancements and robust lexical databases, `EmoLex.SR` presents a novel affective lexicon that meets contemporary linguistic analysis demands.
 
 
 ## Approach
 
-The `Emolex.SR` lexicon was developed following a multi-step approach:
+The `EmoLex.SR` lexicon was developed following a multi-step approach:
 1. **Emotional Words Collection**: Compilation of Serbian words and corresponding English lexicons with affective dimensions.
-2. **Translation**: Manual and automated translation (Google Translate, GhatGPT, GPT-4.1) of emotion affect (word, PoS) entries from English lexicon.
+2. **Translation**: Manual and automated translation (Google Translate, ChatGPT, GPT-4.1) of emotion affect (word, PoS) entries from English lexicon.
 3. **Generation**: Automated generation of (lemma, PoS) synonyms and emotion affect labels.
 4. **Annotation**: Manual and automated annotation of emotion affect labels for (lemma, PoS) in Serbian.
 5. **Validation**: Validation through cross-referencing (NRC.EmoLex, SWN, WNA.SR) and expert verification.
@@ -76,7 +76,7 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
     To effectively use functions in this directory, please ensure to obtain `OPENAI_API_KEY` and save it as an environment variable.
     
 - **construction/**
-  - `translation.py`: Script to facilitate the translation of the emotion affect lexicon.
+  - `translation.py`: Script to facilitate the translation of the emotion lexicon.
   - `adaptation.py`: Script used to adapt the lexicon upon manual validation on contextual and linguistics changes (output: **EmoLex.SR-v1**).
   - `expansion.py`:  Script used to enrich the EmoLex.SR-v1 lexicon with the broad synonyms and manually crafted emotional affect words in Serbian (output: **EmoLex.SR-v2**).
 
@@ -93,7 +93,7 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
 
 ### Running the Scripts
 
-To construct or validate the emotion affect lexicon please ensure that you collected all necessary resouces.
+To construct or validate the emotion affect lexicon please ensure that you collected all necessary resources.
 
 
 ## Plans for Future Improvements
