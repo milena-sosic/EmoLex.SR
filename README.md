@@ -57,11 +57,11 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
 ## Repository Structure
 
 - **data/**
-  - `NRC.EmoLex.EN`: The main lexicon file containing emotion affect data for English words.
+  - `NRC.EmoLex.EN`: The lexicon file containing emotion affect data for English words.
   - `serbian_emo_affect_words.txt`: A list of Serbian words utilized in the expansion of the lexicon.
 
 - **lexicons/**
-  - Contains all versions of the lexicon that were developed during the translation, adaptation, and validation steps. For the final lexicon versions (v-1/2), please use 
+  - Contains all versions of the lexicon that were developed during the translation, adaptation, and validation steps. If you want to reproduce the steps of lexicon construction, please use the links above to collect all necessary resources. Lexicon constructed through this study (v-1/2) could be found on the [ELG](#) repository.
  
 - **WNA.SR/**
   - This folder contains resources related to the WordNet-Affect lexical database, which extends WordNet with affective concepts and is specifically linked to the Serbian WordNet.
@@ -70,7 +70,7 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
   - `translation.py`: Script to facilitate the translation of the emotion affect lexicon.
   - `adaptation.py`: Script used to adapt the lexicon upon manual validation on contextual and linguistics changes (output: `EmoLex.SR-v1`).
   - `expansion.py`:  Script used to enrich the EmoLex.SR-v1 lexicon with the broad synonyms and manually crafted emotional affect words in Serbian (output: `EmoLex.SR-v2`).
-  - `analyse_emotion.py`: A script for analyzing sentiment in Serbian text using the Emolex.SR-v2 lexicon.
+  - `analyse_emotion.py`: A script for analyzing emotional signals in Serbian text using the Emolex.SR-v2 lexicon.
 
 - **lexicon_validation/**
   - Set of scripts used to validate particular steps during lexicon construction.
