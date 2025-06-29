@@ -12,7 +12,7 @@
 
 # EmoLex.SR - Emotion Affect Lexicon for the Serbian Language
 
-`EmoLex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary scripts and guidelines for lexicon consruction.
+`EmoLex.SR` is a comprehensive emotion affect lexicon specifically designed for the Serbian language, based on the methodology detailed in our accompanying paper. This repository provides all necessary scripts and guidelines for lexicon construction.
 
 
 ## Technology and Resources Utilization
