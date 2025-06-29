@@ -36,7 +36,7 @@ This project leverages advanced technologies alongside established language reso
   
 - **Advanced Computational Methods**: The construction and validation of the emotion-affect lexicon employ cutting-edge computational techniques, including natural language processing (NLP) and automated semantic analysis by LLMs ([ChatGPT](https://openai.com/index/chatgpt/), [GPT-4.1](https://openai.com/index/gpt-4-1/), [XLM-Emo](https://huggingface.co/MilaNLProc/xlm-emo-t), [Multilingual Sentence Transformers](https://github.com/UKPLab/sentence-transformers/blob/master/examples/sentence_transformer/training/multilingual/README.md)), to ensure accuracy and efficiency.
 
-- **Innovative Lexicon Development**: Through the strategic combination of technological advancements and robust lexical databases, `Emolex.SR` presents a novel affective dictionary that meets contemporary linguistic analysis demands.
+- **Innovative Lexicon Development**: Through the strategic combination of technological advancements and robust lexical databases, `Emolex.SR` presents a novel affective lexicon that meets contemporary linguistic analysis demands.
 
 
 ## Approach
@@ -94,13 +94,13 @@ The lexicon captures affective dimensions and aligns with the methodologies repo
 
 ### Running the Scripts
 
-To construct or validate the emotion affect dictionary please ensure that you collected all necessary resouces.
+To construct or validate the emotion affect lexicon please ensure that you collected all necessary resouces.
 
 
 ## Plans for Future Improvements
 - **Expansion of Entries:** Include a larger corpus of Serbian words and phrases (MWE) to enhance the breadth of affective dimensions captured.
 - **Improved Automation:** Develop more sophisticated machine learning models for automated emotion annotation of texts in Serbian.
-- **Language Variants:** Extend the dictionary to support additional language dialects and variants (ijekavian).
+- **Language Variants:** Extend the lexicon to support additional language dialects and variants (ijekavian).
 - **User Interface:** Create a user-friendly graphical interface for easier interaction and analysis.
 - **API Development:** Build a REST API for remote and programmatic access to the lexicon.
 
