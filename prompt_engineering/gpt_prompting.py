@@ -243,11 +243,6 @@ def create_parallel_corpus(output_path: str):
                     # Write the row to the file
                     file.write('\t'.join(row_data) + '\n')
                     file.flush()
-                    # results.append({
-                    #     "sentence_en": data['sentence_en'],
-                    #     "sentence_sr": data['sentence_sr'],
-                    #     "emotions": data['emotions']
-                    # })
     except Exception as e:
             logger.error(f"Failed to generate parralel corpus, error: {str(e)}")
             raise
