@@ -1,4 +1,4 @@
-EMO_CATEGORIES = ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'sadness','surprise', 'trust']
+EMO_CATEGORIES = ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'sadness', 'surprise', 'trust']
 
 SYNONYM_GROUPS = ['synonyms_gpt', 'synonyms_swn', 'synonyms_incorrect', 'synonyms_manual']
 
