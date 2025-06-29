@@ -1,16 +1,5 @@
 EMO_CATEGORIES = ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'sadness','surprise', 'trust']
 
-INVERSE_EMO_CATEGRORIES = {
-    'anger': [],
-    'anticipation': [],
-    'disgust': [],
-    'fear': [],
-    'joy': [],
-    'sadness': [],
-    'surprise': [],
-    'trust': []
-}
-
 SYNONYM_GROUPS = ['synonyms_gpt', 'synonyms_swn', 'synonyms_incorrect', 'synonyms_manual']
 
 NRC_WNA_MAPPING = {
@@ -26,7 +15,6 @@ NRC_WNA_MAPPING = {
 
 CORPUS = ['SocialSCKT'] #'XED', 'LLM',  'LLM'
 
-# XLM_MODEL_PATH = "daveni/twitter-xlm-roberta-emotion-es"
 XLM_MODEL_PATH = "MilaNLProc/xlm-emo-t"
 EMO_LLAMA_MODEL_PATH = "lzw1008/Emollama-chat-7b"
 SBERT_MODEL_PATH = "sentence-transformers/use-cmlm-multilingual"
