@@ -105,7 +105,7 @@ To construct or validate the emotion affect lexicon please ensure that you colle
 
 
 ## License
-- MIT General Public License
+- GNU General Public License
 
 
 ## Contact
