@@ -7,8 +7,8 @@ It is based on the created linkage between the WordNet 1.6 and WordNet 3.0 estab
 ## Features
 
 - **Load WordNet-Affect Synsets**: Load synsets from WordNet-Affect XML files.
-- **Merge Synsets**: Merge WordNet-Affect synsets with WordNet 3.0 synsets.
-- **Output Serbian WordNet**: Generate Serbian WordNet with affect annotations.
+- **Merge Synsets**: Merge WordNet-Affect synsets (based on WordNet 1.6 synsets) with WordNet 3.0 synsets.
+- **Output WNA.SR**: Generate Serbian WordNet with affect annotations.
 
 ## Requirements
 
