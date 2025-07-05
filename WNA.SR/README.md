@@ -15,7 +15,7 @@ It is based on the created linkage between the WordNet 1.6 and WordNet 3.0 estab
 - Python 3.x
 - [WordNet-Affect](https://wndomains.fbk.eu/wnaffect.html) as extension of [WordNet-Domains](https://wndomains.fbk.eu/index.html) - provides hierachically organized set of emotional words
 - [Princeton WordNet](https://wordnet.princeton.edu/) - versions 1.6 and 3.0 data files
-- Serbian WordNet (SWN)
+- [Serbian WordNet](https://wn.jerteh.rs/) (SWN)
 - XML libraries (ElementTree)
 - NLTK
 - Pandas
